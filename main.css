@@ -5,26 +5,32 @@ font-family: sans-serif;
 .container {
     margin: 1.5rem 6rem;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
 }
+
 a {
     text-decoration: none;
 }
+
 .nav-a {
   display: flex;
   gap: 1.5rem;  
 }
+
 .blue {
     background-color: blue;
     color: white;
     padding: 10px 20px;
     border-radius: 10px;
 }
+
 .banner {
     position: relative;
 }
+
 .content {
     position: absolute;
     top: 20%;
@@ -32,6 +38,7 @@ a {
     width: 50%;
     text-align: center;
 }
+
 button {
     background-color: blue;
     padding: 15px 35px;
@@ -39,20 +46,25 @@ button {
     color: white;
     font-size: large;
 }
+
 .white {
     background-color: white;
     color: blue;
 }
+
 h1 {
     color: white;
     font-size: 3em;
 }
+
 .grey {
     color: grey;
 }
+
 p {
     color: grey;
 }
+
 .flex {
     display: flex;
     align-content: space-evenly;
